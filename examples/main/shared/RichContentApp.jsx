@@ -35,12 +35,13 @@ class RichContentApp extends PureComponent {
   };
 
   setLocaleResource = locale => {
-    import(`wix-rich-content-common/statics/locale/messages_${locale}.json`).then(localeResource =>
-      this.setState({
-        locale,
-        localeResource: localeResource.default,
-        remountKey: !this.state.remountKey,
-      })
+    import(`wix-rich-content-common/dist/statics/locale/messages_${locale}.json`).then(
+      localeResource =>
+        this.setState({
+          locale,
+          localeResource: localeResource.default,
+          remountKey: !this.state.remountKey,
+        })
     );
   };
 
