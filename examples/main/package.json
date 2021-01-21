@@ -20,7 +20,7 @@
     "react-monaco-editor": "^0.26.1",
     "react-reflex": "^3.0.13",
     "react-tiny-fab": "^2.0.0",
-    "whatwg-fetch": "3.4.1",
+    "whatwg-fetch": "3.5.0",
     "ricos-editor": "8.17.5",
     "ricos-viewer": "8.17.5",
     "wix-rich-content-fullscreen": "8.17.5",
